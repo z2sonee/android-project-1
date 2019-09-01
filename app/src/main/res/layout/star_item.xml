@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tvStore_star"
+        android:layout_width="238dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="17dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="14dp"
+        android:text="식당 이름"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvCategory_star"
+        android:layout_width="237dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/tvStore"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="60dp"
+        android:text="식당 세부사항"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/tvPhone_star"
+        android:layout_width="238dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/tvStore"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="112dp"
+        android:text="전화번호" />
+
+    <TextView
+        android:id="@+id/tvAddress_star"
+        android:layout_width="215dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/tvStore"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="86dp"
+        android:text="TextView"
+        android:textSize="15sp" />
+
+</RelativeLayout>

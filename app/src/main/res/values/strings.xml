@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">MA02_20160928</string>
+    <string name="api_url">https://openapi.naver.com/v1/search/local.xml?query=</string>
+    <string name="client_id">eCiMZFm7SOMRJUgdG4xx</string>
+    <string name="client_secret">hLv70vEk1R</string>
+
+    <string name="openapi_url">https://openapi.naver.com/v1/search/local.xml?display=10&amp;start=1&amp;sort=random&amp;query=</string>
+
+    <string name="init_latitude">37.604186</string>
+    <string name="init_longitude">127.042456</string>
+    <string name="save_btn_toast">저장 또는 수정하는 중</string>
+    <string name="permission_ok_toast">Permission was granted! Restart now!</string>
+    <string name="permission_failed_toast">Permission denied!</string>
+    <string name="hint_type">카페 or 음식점</string>
+    <string name="type_cafe">카페</string>
+    <string name="type_restaurant">음식점</string>
+    <string name="google_api_key">AIzaSyBxJsb41kkUm1Xpn647iqF6VejWHltAMfE</string>
+
+    <string name="what_food">뭐 먹을지 정해볼까?</string>
+</resources>

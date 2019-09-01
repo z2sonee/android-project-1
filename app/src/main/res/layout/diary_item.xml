@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tvDate"
+        android:layout_width="176dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="12dp"
+        android:text="날짜"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/tvStoreName"
+        android:layout_width="256dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/tvDate"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="43dp"
+        android:text="가게이름"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvFoodName"
+        android:layout_width="252dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/tvDate"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="74dp"
+        android:text="음식 이름"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvPhone"
+        android:layout_width="247dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/tvDate"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="106dp"
+        android:text="전화번호"
+        android:textSize="18sp" />
+</RelativeLayout>

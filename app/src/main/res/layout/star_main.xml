@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pinkk">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="즐겨찾는 맛집 목록"
+        android:textSize="19sp"
+        android:textStyle="bold" />
+
+    <ListView
+        android:id="@+id/list_star"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>
