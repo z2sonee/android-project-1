@@ -77,29 +77,6 @@ public class StarActivity extends AppCompatActivity {
 
     }
 
-//    @Override
-//    protected void onResume() {
-//        super.onResume();
-//        resultList.clear();
-////        DB 에서 모든 레코드를 가져와 Adapter에 설정
-//        SQLiteDatabase db = helper.getReadableDatabase();
-//
-//        cursor = db.rawQuery("select * from " + StarDBHelper.TABLE_NAME, null);
-//
-//        while (cursor.moveToNext()) {
-//            int id = cursor.getInt(cursor.getColumnIndex(StarDBHelper.ID));
-//            String StoreName = cursor.getString(cursor.getColumnIndex(StarDBHelper.STORENAME));
-//            String category = cursor.getString(cursor.getColumnIndex(StarDBHelper.CATEGORY));
-//            String address = cursor.getString(cursor.getColumnIndex(StarDBHelper.ADDRESS));
-//            String phone = cursor.getString(cursor.getColumnIndex(StarDBHelper.PHONE));
-//            resultList.add(new StarDto(id, StoreName, category, address, phone));
-//        }
-//        adapter.notifyDataSetChanged();
-//
-//        helper.close();
-//
-//    }
-
     @Override
     protected void onDestroy() {
         super.onDestroy();
