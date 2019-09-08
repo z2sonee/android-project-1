@@ -123,9 +123,6 @@ public class AddDiaryActivity extends AppCompatActivity {
 
     protected void onActivityResult (int requestCode, int resultCode, Intent data) { //사진을 찍은 후 사진을 ivPhoto에 적용하는 부분.
         if(requestCode == REQUEST_TAKE_PHOTO && resultCode == RESULT_OK) {
-//            Bundle extras = data.getExtras();
-//            Bitmap imageBitmap = (Bitmap) extras.get("data");
-//            ivPhoto.setImageBitmap(imageBitmap);
             ivPhoto.setImageURI(photoURI);
 
         } else if (requestCode == REQUEST_TAKE_PHOTO && resultCode == RESULT_OK) {
